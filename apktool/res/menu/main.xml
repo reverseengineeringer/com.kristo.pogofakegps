@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@mipmap/ic_edit_location_black_24dp" android:id="@id/action_SetPosition" android:title="Search Coordinates" android:showAsAction="ifRoom" />
+    <item android:icon="@mipmap/ic_search_black_24dp" android:id="@id/action_SearchLocation" android:title="Search Location" android:showAsAction="ifRoom" />
+    <item android:icon="@mipmap/ic_grade_black_24dp" android:id="@id/action_Favourites" android:title="Favourites" android:showAsAction="ifRoom" />
+    <item android:icon="@mipmap/ic_access_time_black_24dp" android:id="@id/action_History" android:title="History" android:showAsAction="ifRoom" />
+    <item android:icon="@mipmap/ic_settings_black_24dp" android:id="@id/action_Settings" android:title="Settings" android:showAsAction="ifRoom" />
+    <item android:icon="@mipmap/ic_action_good" android:id="@id/action_Rate" android:title="Rate!" android:showAsAction="ifRoom" />
+</menu>

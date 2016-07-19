@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Switch android:id="@id/settings_enable_zoom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="true" android:text="Zoom when setting location" android:layout_weight="0.07" />
+    <SeekBar android:id="@id/settings_zoom_seek" android:longClickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="20" android:progress="0" android:indeterminate="false" android:indeterminateOnly="false" android:layout_weight="0.24" />
+    <Switch android:id="@id/settings_root_location" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="false" android:text="Set Location Root" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/textView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Location refresh rate in ms" android:layout_weight="0.07" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/textView5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Fastest = 25, Slowest = 3000" android:layout_weight="0.07" />
+    <EditText android:layout_gravity="center_horizontal" android:id="@id/et_refresh_rate" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="300" android:ems="10" android:layout_weight="0.07" android:inputType="number" />
+    <Switch android:id="@id/settings_terrain_map" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="false" android:text="Set satellite map" android:layout_weight="0.07" />
+    <Switch android:enabled="true" android:id="@id/s_tilt_enabled" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="false" android:text="Tilt device to move location" android:layout_weight="0.07" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/textView4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Tilt Sensitivity" android:layout_weight="0.07" />
+    <SeekBar android:id="@id/sb_tilt_sensitivity" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="100" android:progress="50" android:indeterminate="false" android:layout_weight="0.07" />
+    <Button android:id="@id/b_zero_tilt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Zero tilt axis" android:layout_weight="0.07" />
+</LinearLayout>

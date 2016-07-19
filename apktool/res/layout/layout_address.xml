@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@id/etSearchP" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Stellenbosch, South Africa" android:ems="10" android:layout_below="@id/textView3" android:layout_alignParentLeft="true" />
+    <Button android:id="@id/bSetLocDialog" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Search Location" android:layout_below="@id/etSearchP" android:layout_centerHorizontal="true" />
+    <TextView android:id="@id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Enter Address" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

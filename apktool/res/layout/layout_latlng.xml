@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Latitude" android:layout_toRightOf="@id/bSetLocDialog" android:layout_alignParentTop="true" />
+    <EditText android:id="@id/lat" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="12.14324123" android:ems="10" android:layout_below="@id/textView2" android:layout_alignParentLeft="true" android:inputType="numberDecimal|numberSigned" />
+    <TextView android:id="@id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Longitude" android:layout_below="@id/lat" android:layout_centerHorizontal="true" />
+    <EditText android:id="@id/lng" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="-21.423423" android:ems="10" android:layout_below="@id/TextView01" android:layout_alignParentLeft="true" android:inputType="numberDecimal|numberSigned" android:fontFamily="sans-serif" />
+    <Button android:id="@id/bSetLocDialog" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Set Location" android:layout_below="@id/lng" android:layout_centerHorizontal="true" />
+</RelativeLayout>
